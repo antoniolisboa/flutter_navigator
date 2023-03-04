@@ -30,7 +30,7 @@ class LoginScreen extends StatelessWidget {
                       //     builder: (cotext) => const HomeScreen(),
                       //   ),
                       // );
-                      Navigator.of(context).pushNamed('/home');
+                      Navigator.pushNamed(context, '/home');
                     },
                     child: const Padding(
                       padding: EdgeInsets.all(14),

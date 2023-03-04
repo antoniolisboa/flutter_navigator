@@ -33,8 +33,8 @@ class HomeScreen extends StatelessWidget {
                   Expanded(
                     child: ElevatedButton(
                       onPressed: () {
-                        // Navigator.pop(context);
-                        Navigator.of(context).pop('/login');
+                        Navigator.pop(context);
+                        // Navigator.of(context).pop('/login');
                       },
                       child: const Padding(
                         padding: EdgeInsets.all(14),
